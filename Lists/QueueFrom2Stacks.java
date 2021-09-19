@@ -10,8 +10,8 @@ import java.lang.Math;
 //Currently this Queue accepts only Integers. 
 class CustomQueue {
 	
-	private static Deque<Integer> InStack = new ArrayDeque<>() ;
-        private static Deque<Integer> OutStack = new ArrayDeque<>() ;
+	private static Deque<Integer> InStack;
+        private static Deque<Integer> OutStack;
 
 	public CustomQueue() {
 		InStack = new ArrayDeque<Integer>() ;
